@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="desert.png" href="./assets/Desert.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
     <title>Portfolio</title> 
 
 </head>
@@ -24,34 +27,42 @@
         </nav>
     </header>
 
-    <main class="column justify-center">
-        <section class="row">
-            <h2 id="aboutme">About Me</h2>
+    <main class="column">
+        <section>
+            <br id="aboutme">
+            <h2>About Me</h2>
             <div class="row">
-                <p> My name is Charlotte. I am 23 years old. I am excited to continue learning!</p>
-                <img id="charlottepicture" src='./Assets/IMG_0294.jpeg' alt="picture of me" />
+                <p> My name is Charlotte. I am 23 years old.</p>
+                <img id="charlottepicture" src='./Assets/Blurry.jpg' alt="black and white photo of girl smiling" />
             </div>
         </section>
-        <section class="row">
-            <h2 id="work">My Work</h2>
-            <div class="row">
+        <section>
+            <br id="work">
+            <h2>My Work</h2>
+            <div class="wrapper">
                 <figure class="card1">
                     <h2 class="cardheader">Work 1</h2>
                     <p class="cardbody">body content</p>
                     <img class="desert" src='./Assets/Desert.png' alt="desert" />
                 </figure>
-            </div>
-            <div class="wrapper">
-                <div class="content-column">
+                <div class="subcards">
                     <figure class="card">
                         <h2 class="cardheader">Work 2</h2>
                         <p class="cardbody">body content</p>
                         <img class="desert" src='./Assets/Desert.png' alt="desert" />
                     </figure>
-                </div>
-                <div class="content-column">
                     <figure class="card">
                         <h2 class="cardheader">Work 3</h2>
+                        <p class="cardbody">body content</p>
+                        <img class="desert" src='./Assets/Desert.png' alt="desert" />
+                    </figure>
+                    <figure class="card">
+                        <h2 class="cardheader">Work 4</h2>
+                        <p class="cardbody">body content</p>
+                        <img class="desert" src='./Assets/Desert.png' alt="desert" />
+                    </figure>
+                    <figure class="card">
+                        <h2 class="cardheader">Work 5</h2>
                         <p class="cardbody">body content</p>
                         <img class="desert" src='./Assets/Desert.png' alt="desert" />
                     </figure>
@@ -60,10 +71,9 @@
         </section>
     
     </main>
-    <br>
-    <br>
+    <br id="contactme">
     <aside class="content-column">
-        <h2 id="contactme">Contact Me</h2>
+        <h2>Contact Me</h2>
         <br>
         <ul class="contact">
             <li><a href="mailto:example@example.com">Email</a></li>
@@ -73,11 +83,16 @@
         </ul> 
     </aside>
     <br>
-    <br>
-    <main> 
+    <main class="column"> 
         <h2 id="resume">Resume</h2> 
-        
+        <br>
+        <p>Open a PDF copy of my <a href="./assets/Charlotte_Clark_Resume.pdf">Resume</a> </p>
+        <br>
     </main>
+
+    <footer>
+        <h2>Charlotte Clark</h2> 
+    </footer>
 
 </body>
 </html>
