@@ -1,12 +1,11 @@
 # charlotteportfolio
 
-## User Story
+## Technologies Used:
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+* HTML
+* CSS 
+
+
 ## Goal: 
 
 This is a portfolio to share with hiring managers when I am looking to attain jobs in software development.
@@ -19,49 +18,10 @@ There are four sections in my portfolio.
 
 To navigate the site, if you click the links in the navigation, each link will bring you to the corresponding part of the webpage. 
 
-If you click on the images in the "My Work" section of the page, you will be taken to that deployed application (currently these images are placeholders until I have work to link). 
-    WHEN I click on the images of the applications
-    THEN I am taken to that deployed application
+If you click on the images in the "My Work" section of the page, you will be taken to that deployed application (currently these images are placeholders until I have work to link, and the links will take you to Google.com). 
 
+This site is made with a responsive layout that adapts to different screens and devices. 
 
+https://charlocc.github.io/charlotteportfolio/
 
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
-
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
-
-## Grading Requirements
-
-Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-
-
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+![alt text](assets/screenshot.png)
