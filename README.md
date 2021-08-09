@@ -23,7 +23,7 @@ If you click on the images in the "My Work" section of the page, you will be tak
     WHEN I click on the images of the applications
     THEN I am taken to that deployed application
 
-GIVEN I need to sample a potential employee's previous work
+
     WHEN I load their portfolio
     THEN I am presented with the developer's name, a recent photo or avatar, 
 

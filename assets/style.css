@@ -2,9 +2,11 @@
     --darkblue: rgb(2, 2, 39);
     --lightblue: rgb(98, 176, 221);
     --lightyellow: rgb(251, 255, 190);
+    background-color:rgb(251, 255, 190);
 } 
 
 /* Header and Navigation Menu */
+
 
 header{
     display: flex;
@@ -58,6 +60,17 @@ main {
     width: 100%;
     margin: 2%;
     flex-direction: column;
+}
+
+#charlottepicture{
+    position: relative;
+    margin: 1%;
+    padding: 1%;
+    width: 25%; 
+    border: var(--darkblue) solid 2px;
+    background-color: var(--lightblue);
+    border-radius: 9%; 
+    align-self: right;
 }
 
 /* SPLIT PORTFOLIO INTO TWO ROWS */
