@@ -19,13 +19,11 @@ There are four sections in my portfolio.
 
 To navigate the site, if you click the links in the navigation, each link will bring you to the corresponding part of the webpage. 
 
-If you click on the images in the "My Work" section of the page, you will be taken to that deployed application (some of these images are placeholders until I have more work to link). 
+If you click on the images in the "My Work" section of the page, you will be taken to that deployed application (currently these images are placeholders until I have work to link). 
     WHEN I click on the images of the applications
     THEN I am taken to that deployed application
 
 
-    WHEN I load their portfolio
-    THEN I am presented with the developer's name, a recent photo or avatar, 
 
 
 WHEN I resize the page or view the site on various screens and devices
@@ -42,13 +40,7 @@ The following animation shows the web application's appearance and functionality
 
 ## Grading Requirements
 
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
+Deployment: 32%
 
 * Application deployed at live URL.
 
@@ -58,19 +50,8 @@ This homework is graded based on the following criteria:
 
 * GitHub repository contains application code.
 
-### Application Quality: 15%
 
-* Application resembles the mock-up functionality provided in the homework instructions.
 
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
 
 * Repository contains quality readme with description, screenshot, link to deployed application.
 
