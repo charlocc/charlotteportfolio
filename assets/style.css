@@ -1,0 +1,208 @@
+:root{
+    --darkblue: rgb(2, 2, 39);
+    --lightblue: rgb(98, 176, 221);
+    --lightyellow: rgb(251, 255, 190);
+} 
+
+/* Header and Navigation Menu */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--lightblue);
+    color: var(--darkblue);
+    border: var(--darkblue) solid 2px;
+    border-radius: 2%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    min-width: 400px;
+    list-style-type: none;
+}
+
+nav a{
+    color: var(--darkblue);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li{
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--lightyellow);
+}
+
+/* Main body of the page */
+
+h1{
+    font-size: 300%;
+}
+
+h2{
+    font-size: 200%; 
+}
+
+h3{
+    font-size: 150%; 
+}
+
+main {
+    display: flex;
+    flex: 1 1 0;
+    width: 100%;
+    margin: 2%;
+    flex-direction: column;
+}
+
+/* SPLIT PORTFOLIO INTO TWO ROWS */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper {
+    flex: 1;
+    flex-flow: row-wrap;
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 2%;
+    align-items: center;
+    width: 90%;
+    justify-content: space-around;
+
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.content-column{
+    flex: 1 0 100%;
+    padding: 2%;
+    flex-direction: column;
+}
+
+/* My work */
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    padding: 2%;
+    background-color: var(--lightblue);
+    color: var(--darkblue);  
+    border-color: var(--darkblue);
+    border: solid 2px;  
+    border-radius: 9%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    padding: 2%;
+    background-color: var(--lightblue);
+    color: var(--darkblue);  
+    border-color: var(--darkblue);
+    border: solid 2px;  
+    border-radius: 9%;
+}
+
+.cardheader{
+    position: relative;
+    margin: 2%;
+    padding: 2% 5%;
+    background-color: var(--darkblue);
+    color: var(--lightyellow);
+    border: solid 2px;
+    border-color: var(--lightyellow);
+    text-align: center;
+    border-radius: 9%;
+}
+
+.cardbody{
+    display: block;
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+.desert{
+    position: relative;
+    margin: 1%;
+    padding: 1%;
+    width: 100%; 
+    border-radius: 9%; 
+    align-self: center;
+}
+
+/* Contact Me Section */
+
+aside{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    width: 90%;
+    list-style-type: none;
+    align-self: center;
+}
+
+aside ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+    border: solid var(--darkblue) 2px;
+    background-color: var(--lightblue);
+    margin: auto;
+    padding: 20px 20px;
+}
+
+aside a{
+    color: var(--darkblue);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+aside ul li{
+    font-weight: normal;
+}
+
+aside a:hover {
+    color: var(--lightyellow);
+}
+
+
+@media screen and (max-width:768px) {
+   header{
+       flex-direction: column;
+   }
+}
+
+/* MAKE THE CONTENT GO UP AND DOWN */
+@media screen and (max-width:768px) {
+    .row{
+        flex-direction: column;
+        width: 100%;
+        margin: 1%;
+        padding: 1%;
+    }
+ }
+
