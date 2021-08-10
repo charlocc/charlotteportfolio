@@ -106,8 +106,6 @@ footer{
     padding: 5%;
 }
 
-/* SPLIT PORTFOLIO INTO TWO ROWS */
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -254,12 +252,12 @@ aside a:hover {
 
 
 @media screen and (max-width:768px) {
-   header{
+   header,
+   footer{
        flex-direction: column;
    }
 }
 
-/* MAKE THE CONTENT GO UP AND DOWN */
 @media screen and (max-width:768px) {
     .row{
         flex-direction: column;
@@ -269,20 +267,17 @@ aside a:hover {
     }
 }
 
-
- /* @media screen and (max-width:768px) {
-    .subcards{
-        display: flex;
-        flex-flow: column;
-        margin: 9%;
-        justify-content: space-around;
-        align-items: center;
+ @media screen and (max-width:768px) {
+    #charlottepicture,
+    .text,
+    .card{
         width: 100%;
     }
-}    */
+}
 
 @media screen and (max-width:768px) {
-    .card{
-    width: 100%;
+    .contact{
+        flex-direction: column; 
+        text-align: center;
     }
-}   
+}
