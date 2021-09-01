@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <link rel="desert.png" href="./assets/Desert.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">   
     <title>Portfolio</title> 
     <style>
         body{
-            background-image: url("./assets/Desert.png");
+            background-image: url("./assets/images/trial4.jpg");
             background-attachment: fixed;
             background-size: cover;
         }   
@@ -34,52 +36,57 @@
     <main class="column">
         <section>
             <br id="aboutme">
-            <h2>About Me</h2>
+            <h2 class="dark-text">About Me</h2>
             <div class="row">
                 <div class="text">
-                    <p> My name is Charlotte. I graduated from the University of Southern California in 2020. I am currently enrolled in a full-stack coding bootcamp at UCLA.</p>
+                    <p> I graduated from the University of Southern California in 2020 with a degree in International Relations. I worked as a senior therapist for children with developmental disabilites for two years, and I am currently enrolled in a full-stack coding bootcamp at UCLA.</p>
+                    <ul id="language-list">Coding Languages:
+                        <li class="lang">HTML</li>
+                        <li class="lang">CSS</li>
+                        <li class="lang">JavaScript</li>
+                    </ul>
                 </div>
-                <img id="charlottepicture" src='./assets/Blurry.jpg' alt="black and white photo of girl smiling" />
+                <img id="charlottepicture" src='./assets/images/charlotte.jpg' alt="photo of girl smiling" />
             </div>
         </section>
         <section>
             <br id="work">
-            <h2>My Work</h2>
+            <h2 class="dark-text">My Work</h2>
             <div class="wrapper">
                 <figure class="card1">
                     <a href="https://charlocc.github.io/activityplanner/">   
                         <h2 class="cardheader">Activity Planner</h2>
                         <p class="cardbody">An interactive tourist web-application that can search tourist information by city and save a users favorite items.</p>
-                        <img class="desert" src='./assets/activityplanner.png' alt="Screenshot of Activity Planner Website"/>
+                        <img class="desert" src='./assets/images/activityplanner.png' alt="Screenshot of Activity Planner Website"/>
                     </a>
                 </figure>
                 <div class="subcards">
                     <figure class="card">
-                        <a href="https://www.google.com">  
-                            <h2 class="cardheader">Work 2</h2>
-                            <p class="cardbody">body content</p>
-                            <img class="desert" src='./assets/Desert.png'alt="desert" />
+                        <a href="https://charlocc.github.io/codingquiz/">  
+                            <h3 class="cardheader">Coding Quiz</h3>
+                            <p class="cardbody">Take this quick quiz to test your knowledge of JavaScript.</p>
+                            <img class="desert" src='./assets/images/codingquiz.png' alt="Screenshot of coding quiz" />
                         </a>
                     </figure>
                     <figure class="card">
-                        <a href="https://www.google.com">  
-                            <h2 class="cardheader">Work 3</h2>
-                            <p class="cardbody">body content</p>
-                            <img class="desert" src='./assets/Desert.png' alt="desert" />
+                        <a href="https://charlocc.github.io/workdayscheduler/">  
+                            <h3 class="cardheader">Work Day Scheduler</h3>
+                            <p class="cardbody">This work day scheduler is a great resource to plan out your busy day.</p>
+                            <img class="desert" src='./assets/images/workdayscheduler.png' alt="Screenshot of work day scheduler page" />
                         </a>
                     </figure>
                     <figure class="card">
-                        <a href="https://www.google.com">  
-                            <h2 class="cardheader">Work 4</h2>
-                            <p class="cardbody">body content</p>
-                            <img class="desert" src='./assets/Desert.png' alt="desert" />
+                        <a href="https://charlocc.github.io/passwordgenerator/">  
+                            <h3 class="cardheader">Password Generator</h3>
+                            <p class="cardbody">Use this to make a random password, customized to meet your needs.</p>
+                            <img class="desert" src='./assets/images/password.png' alt="screenshot of password generator" />
                         </a>
                     </figure>
                     <figure class="card">
-                        <a href="https://www.google.com">  
-                            <h2 class="cardheader">Work 5</h2>
-                            <p class="cardbody">body content</p>
-                            <img class="desert" src='./assets/Desert.png' alt="desert" />
+                        <a href="https://charlocc.github.io/weatherdashboard/">  
+                            <h3 class="cardheader">Weather Dashboard</h3>
+                            <p class="cardbody">Check out the weather forecast in your city (using the Open Weather API.)</p>
+                            <img class="desert" src='./assets/images/weather.png' alt="screenshot of weather dashboard" />
                         </a>
                     </figure>
                 </div>
@@ -89,7 +96,7 @@
     </main>
     <br id="contactme">
     <aside class="content-column">
-        <h2>Contact Me</h2>
+        <h2 class="dark-text">Contact Me</h2>
         <br>
         <ul class="contact">
             <li><a href="mailto:charlocc@usc.edu">Email</a></li>
@@ -99,10 +106,10 @@
         </ul> 
     </aside>
     <br>
-    <main class="column"> 
-        <h2 id="resume">Resume</h2> 
+    <main class="column" id="resume"> 
+        <h2 class="light-text">Resume</h2> 
         <br>
-        <p><a href="./assets/Charlotte_Clark_Resume.pdf">Click here to open a PDF copy of my resume</a> </p>
+        <p><a id="resume-text" href="./assets/Charlotte_Clark_Resume.pdf">Click here to open a PDF copy of my resume</a> </p>
         <br>
     </main>
 
