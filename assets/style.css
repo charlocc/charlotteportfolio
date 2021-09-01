@@ -1,6 +1,6 @@
 :root{
     --darkblue: rgb(2, 2, 39);
-    --lightblue: rgb(98, 176, 221);
+    --lightblue: rgb(169, 211, 235);
     --lightyellow: rgb(251, 255, 190);
 } 
 
@@ -14,8 +14,7 @@ header{
     padding: 1%;
     background-color: var(--lightblue);
     color: var(--darkblue);
-    border: var(--darkblue) solid 2px;
-    border-radius: 2%;
+    border-bottom: var(--darkblue) solid 2px;
     z-index: 2;
     width: 100%;
     top: 0;
@@ -94,7 +93,7 @@ footer{
     width: 45%; 
     border: var(--darkblue) solid 2px;
     background-color: var(--lightblue);
-    border-radius: 9%; 
+    border-radius: 9px; 
     align-self: right;
 }
 
@@ -153,7 +152,7 @@ footer{
     color: var(--darkblue);  
     border-color: var(--darkblue);
     border: solid 2px;  
-    border-radius: 9%;
+    border-radius: 9px;
     margin-right: 5%;
     flex: 1 0 100%;
 
@@ -170,7 +169,7 @@ footer{
     color: var(--darkblue);  
     border-color: var(--darkblue);
     border: solid 2px;  
-    border-radius: 9%;
+    border-radius: 9px;
     margin: 2%;
     width: 45%;
 
@@ -190,7 +189,7 @@ footer{
     border: solid 2px;
     border-color: var(--lightyellow);
     text-align: center;
-    border-radius: 9%;
+    border-radius: 9px;
 }
 
 .cardbody{
@@ -202,9 +201,8 @@ footer{
 .desert{
     position: relative;
     margin: 1%;
-    padding: 1%;
-    width: 100%; 
-    border-radius: 9%; 
+    width: 98%; 
+    border-radius: 9px; 
     align-self: center;
 }
 
