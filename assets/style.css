@@ -92,7 +92,7 @@ footer{
     position: relative;
     margin: 1%;
     padding: 1%;
-    width: 45%; 
+    width: 28%; 
     border: var(--darkblue) solid 2px;
     background-color: var(--lightblue);
     border-radius: 9px; 
@@ -100,7 +100,7 @@ footer{
 }
 
 .text{
-    width: 45%;
+    width: 68%;
     float: left;
     position: relative;
     background-color: var(--lightblue);
@@ -111,7 +111,7 @@ footer{
 
 #language-list{
     list-style-type: circle;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .lang{
