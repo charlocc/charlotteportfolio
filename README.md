@@ -19,6 +19,6 @@ If you click on the images in the "My Work" section of the page, you will be tak
 
 This site is made with a responsive layout that adapts to different screens and devices. 
 
-https://charlocc.github.io/charlotteportfolio/
+[Portfolio](https://charlocc.github.io/charlotteportfolio/)
 
 ![alt text](assets/images/screenshot.png)
