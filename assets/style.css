@@ -55,10 +55,6 @@ h3{
 }
 
 main {
-    display: flex;
-    flex: 1 1 0;
-    width: 100%;
-    flex-direction: column;
     font-family:'Josefin Sans', sans-serif;
     font-size: 19px;
 }
@@ -88,21 +84,15 @@ footer{
 
 
 #charlottepicture{
-    float: right;
-    position: relative;
-    margin: 1%;
     padding: 1%;
-    width: 28%; 
+    height: 10%;
     border: var(--darkblue) solid 2px;
     background-color: var(--lightblue);
     border-radius: 9px; 
-    align-self: right;
 }
 
 .text{
-    width: 68%;
-    float: left;
-    position: relative;
+    margin: 3px;
     background-color: var(--lightblue);
     padding: 3%;
     border-radius: 5px;
@@ -118,12 +108,11 @@ footer{
     margin: 5px;
     margin-left: 25px;
 }
-.row {
+.row1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin: 2%;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
@@ -142,7 +131,7 @@ footer{
     flex-direction: column;
     margin: 2%;
     align-items: center;
-    width: 92%;
+    width: 95%;
 }
 
 .justify-center {
@@ -172,8 +161,6 @@ footer{
     border-color: var(--darkblue);
     border: solid 2px;  
     border-radius: 9px;
-    margin-right: 5%;
-    flex: 1 0 100%;
 }
 
 .card1:hover {
@@ -238,7 +225,6 @@ aside{
     width: 100%;
     list-style-type: none;
     align-self: center;
-    /* font-family: 'Kaisei HarunoUmi', serif; */
     font-family:'Josefin Sans', sans-serif;
 }
 

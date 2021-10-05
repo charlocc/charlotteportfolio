@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,17 +40,20 @@
     </header>
 
     <main class="column">
-        <section>
+        <section class="row">
             <br id="aboutme">
-            <h2 class="dark-text">About Me</h2>
-            <div class="row">
+            <div class="col-lg-3 col-md-12 col-sm-12">
+                <h2 class="dark-text">About Me</h2>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="text">
                     <p> I graduated from the University of Southern California in 2020 with a degree in International
-                        Relations, and a minor in French. I worked as a senior therapist for children with developmental disabilites from 2019-2021, 
+                        Relations, and a minor in French. I worked as a senior therapist for children with developmental
+                        disabilites from 2019-2021,
                         and I am currently enrolled in a full-stack coding bootcamp at UCLA.</p>
                     <div class="column">
                         <ul id="language-list">Proficient in:
-                            <div class="row">
+                            <div class="row1">
                                 <li class="lang">HTML</li>
                                 <li class="lang">CSS</li>
                                 <li class="lang">JavaScript</li>
@@ -63,13 +68,16 @@
                         </ul>
                     </div>
                 </div>
-                <img id="charlottepicture" src='./assets/images/charlotte2.jpg' alt="photo of girl smiling" />
+            </div>
+            <img class="col-lg-5 col-md-6 col-sm-12" id="charlottepicture" src='./assets/images/charlotte2.jpg'
+                alt="picture of charlotte"/>
             </div>
         </section>
-        <section>
+        <br>
+        <section class="row">
             <br id="work">
-            <h2 class="dark-text">My Work</h2>
-            <div class="wrapper">
+            <h2 class="dark-text col-lg-3 col-md-12 col-sm-12">My Work</h2>
+            <div class="col-lg-9 col-md-12 col-sm-12">
                 <figure class="card1">
                     <a href="https://charlocc.github.io/activityplanner/">
                         <h2 class="cardheader">Activity Planner</h2>
@@ -100,16 +108,14 @@
                         <a href="https://ancient-plains-02897.herokuapp.com/">
                             <h3 class="cardheader">Sweet Apples</h3>
                             <p class="cardbody">Join this site to post all about your favorite videogames.</p>
-                            <img class="desert" src='./assets/images/sweetapples.png'
-                                alt="sweetapples logo" />
+                            <img class="desert" src='./assets/images/sweetapples.png' alt="sweetapples logo" />
                         </a>
                     </figure>
                     <figure class="card">
                         <a href="https://radiant-ocean-47580.herokuapp.com/">
                             <h3 class="cardheader">#bigtechblog</h3>
                             <p class="cardbody">This blog is a place to connect with users about your favorite tech!</p>
-                            <img class="desert" src='./assets/images/bigtechblog.png'
-                                alt="#bigtechblog logo" />
+                            <img class="desert" src='./assets/images/bigtechblog.png' alt="#bigtechblog logo" />
                         </a>
                     </figure>
                 </div>
@@ -139,7 +145,15 @@
     <footer>
         <h3>Charlotte Clark</h3>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
