@@ -152,7 +152,7 @@ footer{
     color: var(--darkblue);
 }
 
-/* My work */
+/* Individual Works Cards */
 
 .card1{
     padding: 1%;
@@ -163,11 +163,16 @@ footer{
     border-radius: 9px;
 }
 
-.card1:hover {
-    border-color: var(--lightyellow);
-    box-shadow: 10px 10px 10px var(--darkblue);
+.description{
+    display: block;
+    margin: 2%;
+    box-sizing: border-box;
+    margin-left: 7%;
 }
 
+
+
+/* Home Page Cards */
 .card{
     padding: 1%;
     background-color: var(--lightblue);
